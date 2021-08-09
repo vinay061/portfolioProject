@@ -1,9 +1,12 @@
-import './App.css';
+import ButtonAppBar from './components/Appbar';
+import SimpleContainer from './components/Resume';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <ButtonAppBar/>
+      <SimpleContainer/>
     </div>
   );
 }
