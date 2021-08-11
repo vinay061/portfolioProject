@@ -17,18 +17,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function Footer() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="secondary">
+      <AppBar position="static" color="primary">
         <Toolbar>
+          
           <Typography variant="h6" className={classes.title}>
             Vinay Kumar
-          </Typography>
-          <Typography>
-              Web Developer
           </Typography> 
         </Toolbar>
       </AppBar>
